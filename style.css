@@ -1,0 +1,33 @@
+canvas {
+    border: 3px solid black;
+    animation-name:anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    0% {    border: 5px solid cadetblue}
+    25%{    border: 5px solid lightcoral}
+    50%{    border: 5px solid palevioletred}
+    75%{    border: 5px solid rgb(230, 155, 230)}
+        100% {    border: 5px solid paleturquoise;}
+}
+h1 {
+    background-color: darkseagreen;
+    animation-name:animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width:560px;
+
+}
+@keyframes animation{
+    /* from{box-shadow: 10px 10px 10px lightblue;}
+    to{box-shadow:10px 10px 10px lightcoral;} */
+    0% {background-color: cadetblue;box-shadow: 10px 10px 10px rgb(64, 130, 152)}
+    25%{background-color: coral;box-shadow: -10px 10px 10px lightcoral}
+    50%{background-color: pink;box-shadow: -10px -10px 10px palevioletred}
+    75%{background-color: rgb(230, 155, 230);box-shadow: 10px -10px 10px purple}
+    100% {background-color: paleturquoise;box-shadow: 10px 10px 10px rgb(25, 65, 79)}
+}
+body{
+    background-image: url(background.jpg);
+}
